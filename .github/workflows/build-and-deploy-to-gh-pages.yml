@@ -35,6 +35,6 @@ jobs:
         env:
           DEPLOY_REPO: j143/eks-workshop
           DEPLOY_BRANCH: gh-pages
-          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_KEY: ${{ secrets.GITHUB_TOKEN }}
           # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
           TZ: Asia/Kolkata
